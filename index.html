@@ -28,7 +28,7 @@
         h2 {
             font-size: 25px;
             padding-bottom: 8px;
-            border-bottom: 1px solid white;
+            border-bottom: 4px solid rgb(182, 182, 182);
         }
 
         li {
@@ -59,12 +59,28 @@
         .txt-14 {
             font-size: 16px;
         }
+        .header{
+            display: flex;
+            justify-content: space-between;
+        }
     </style>
 </head>
 <body>
     <div class="container mt-30">
-        <h1>Fabien Lailliau</h1>
-        <p>Développeur Front End - Valtech</p>
+        <div class="header">
+            <div class="header-title">
+                <h1>Fabien Lailliau</h1>
+                <p>Développeur Front End - Valtech</p>
+            </div>
+            <div class="contact-block">
+                <ul>
+                    <li>Adresse : 13 villa Curial, 75019 Paris</li>
+                    <li>lailliaufabien@gmail.com</li>
+                    <li>06 98 84 75 59</li>
+                    <li>21/01/1985 (32 ans)</li>
+                </ul>
+            </div>
+        </div>
         <h2 class="mt-30">Compétences Technique</h2>
         <ul class="mt-20">
             <li>Javascript :
@@ -92,9 +108,9 @@
                 <ul class="mt-20">
                     <li class="txt-bold">Primonial, gestion de patrimoine :</li>
                     <li class="txt-14 mt-10">Développement d'applications angularjs communiquant avec une api Rest en java.</li>
-                    <li class="txt-14">Choix et mise en place des outils Front-end : Angularjs, Brunch, Sass, Jade.</li>
+                    <li class="txt-14">Choix et mise en place des outils Front-end : Angularjs, Brunch, Sass, Jade, Es6, BabelJS, librairies js :  HighCharts, momentjs, lodash.</li>
                     <li class="txt-14">Déploiement des applications sur les différents environnements avec Jenkins.</li>
-                    <li class="txt-14">Application Hub : pour les conseillers en gestion de patrimoine, permet entre autre d'accèder à l'ensemble des portefeuilles clients et de souscirire en ligne à différents contrats d'assurance vie. </li>
+                    <li class="txt-14">Application Hub : pour les conseillers en gestion de patrimoine, permet entre autre d'accèder à l'ensemble des portefeuilles clients, de souscrire en ligne à différents contrats d'assurance vie, consulter le rendement des supports. </li>
                     <li class="txt-14" >Application Client : permet aux clients d'accèder à leur portefeuille de contrat, gérer les versements et arbitrage, contacter son conseiller.</li>
                     <li class="txt-14">Application Link Vie : Site vitrine de souscription en ligne : <a href="http://www.linkbyprimonial.com/">linkbyprimonial.com</a></li>
                 </ul>
@@ -185,6 +201,17 @@
                         </ul>
                     </li>
            
+        </ul>
+        <h2 class="mt-30">Loisirs / Autre</h2>
+        <ul class="mt-20">
+            <li>
+                    Langues : <br>
+                    Anglais (niveau scolaire, technique).
+                    
+            </li>
+            <li>
+                    Sports (running, vélo, plongee N2), cinéma. Permis B 
+            </li>
         </ul>
     </div>
 </body>
