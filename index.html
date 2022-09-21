@@ -1,36 +1,38 @@
 <!doctype html>
 <html class="no-js" lang="fr">
 <head>
-    <title>Fabien Lailliau Développeur Javascript</title>
+    <title>Fabien Lailliau Développeur Front end</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Fabien Lailliau Developpeur Javascript">
+    <meta name="description" content="Fabien Lailliau Développeur Front end">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
     <style>
         body {
-            background-color: #FEFEFE;
-            font-family: 'Montserrat';
-            color: #121212;
-            font-weight: 300;
+            background:#F7F7F7 no-repeat fixed center top;
+            font:16px/22px  Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-weight:normal;
+            color:#1A1A1A;
         }
-
         .container {
             width: 100%;
             margin: auto;
             max-width: 1200px;
         }
-
         h1 {
-            font-size: 38px;
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
         }
-
         h2 {
             font-size: 25px;
             padding-bottom: 8px;
             border-bottom: 4px solid rgb(182, 182, 182);
         }
-
         li {
             font-size: 18px;
             line-height: 150%;
@@ -70,104 +72,101 @@
         <div class="header">
             <div class="header-title">
                 <h1>Fabien Lailliau</h1>
-                <p>Développeur Front End - Valtech</p>
-            </div>
-            <div class="contact-block">
-                <ul>
-                    <li>Adresse : 13 villa Curial, 75019 Paris</li>
-                    <li>lailliaufabien@gmail.com</li>
-                    <li>06 98 84 75 59</li>
-                    <li>21/01/1985 (32 ans)</li>
-                </ul>
+                <p class="mt-10">Développeur Front End</p>
+            </div>`
+            <div>
+                <p>75019 Paris, France</p>
+                <p>0698847559</p>
+                <p>lailliaufabien@gmail.com</p>
             </div>
         </div>
-        <h2 class="mt-30">Compétences Techniques</h2>
+        <h2 class="mt-30">Compétences</h2>
         <ul class="mt-20">
-            <li>Javascript :
-                <span class="txt-14"> AngularJs, Angular, ES6, TypeScript, Backbone, BabelJS, Nodejs, Npm, PhantomJs, Test Unitaire Karma.</span>
+            <li>Front-end :
+                <span class="txt-14">Angular, Typescript, Rxjs, Ngrx, React, VueJs, Graphql, Npm, Webpack</span>
             </li>
-            <li>Html/CSS :
-                <span class="txt-14">Bootstrap, Sass, Responsive Web Design</span>
+            <li>Back-end :
+                <span class="txt-14">Nodejs, Php Laravel (intermédiaire), Mysql, Wordpress</span>
             </li>
-            <li>Outils :
-                <span class="txt-14"> Grunt, Gulp, WebPack, Brunch</span>
+            <li>
+                Devops :  <span class="txt-14">Git, Jenkins (base), Nexus</span>
             </li>
-            <li>CMS :
-                <span class="txt-14">Wordpress</span>
-            </li>
-            <li>Outils de version :
-                <span class="txt-14">Git, Svn</span>
+            <li>
+                Gestion de projet:
+                <span class="txt-14">Agilité, Scrum, Kanban</span>
             </li>
         </ul>
         <h2 class="mt-30">Expériences</h2>
         <ul class="mt-20">
             <li>
-                <span class="txt-bold">Valtech - Développeur Front-end </span>
-                <br>
-                <span class="txt-14 txt-bold"> Depuis Janvier 2014</span>
+                <p > <span class="txt-bold">Valtech - Développeur Front-end </span> </p>
+                <p><span class="txt-14"> depuis Janvier 2014</span></p>
                 <ul class="mt-20">
-                    <li class="txt-bold">Primonial, gestion de patrimoine :</li>
-                    <li class="txt-14 mt-10">Développement d'applications angularjs communiquant avec une api Rest en java.</li>
-                    <li class="txt-14">Choix et mise en place des outils Front-end : Angularjs, Brunch, Sass, Jade, Es6, BabelJS, librairies js :  HighCharts, momentjs, lodash.</li>
+                    <li ><span class="txt-bold" >Primonial</span> <span class="txt-14">gestion de patrimoine (depuis janvier 2020)</span></li>
+                    <li class="txt-14 mt-10">Refonte des applications en Angular</li>
+                    <li class="txt-14">Choix technique de l'architecture, estimation et répartition des tâches au sein de l'équipe front (4 personnes)</li>
+                    <li class="txt-14">StateManagement avec Ngrx</li>
+                    <li class="txt-14">Mise en place d'un monorepo front avec nx.io</li>
+                </ul>
+                <ul class="mt-20">
+                    <li> <span class="txt-bold" >Allianz</span> <span class="txt-14">assurance, squad BigData (février 2019 à décembre 2019)</span></li>
+                    <li class="txt-14">Développement de plusieurs applications en Angular, Angular Material, Ngrx et Graphql communiquant avec une api rest developpée en python.</li>
+                </ul>
+                <ul class="mt-20">
+                    <li> <span class="txt-bold" >Allianz</span> <span class="txt-14"> assurance, squad Prévoyance (octobre 2017 à février 2019)</span></li>
+                    <li class="txt-14 mt-10">Développement d'applications Angular</li>
+                    <li class="txt-14">Parcours de souscription de contrat d'assurance, application angular communiquant avec une api rest developpée en Java</li>
+                </ul>
+                <ul class="mt-20">
+                    <li ><span class="txt-bold" >Primonial</span> <span class="txt-14"> gestion de patrimoine  (juin 2015 à octobre 2017)</span></li>
+                    <li class="txt-14 mt-10">Développement d'applications angularjs communiquant avec une api rest developpée en java.</li>
+                    <li class="txt-14">Choix et mise en place de l'architecture : Angularjs, Brunch, Sass</li>
                     <li class="txt-14">Déploiement des applications sur les différents environnements avec Jenkins.</li>
-                    <li class="txt-14">Application Hub : pour les conseillers en gestion de patrimoine, permet entre autre d'accèder à l'ensemble des portefeuilles clients, de souscrire en ligne à différents contrats d'assurance vie, consulter le rendement des supports. </li>
-                    <li class="txt-14">Application Client : permet aux clients d'accèder à leur portefeuille de contrat, gérer les versements et arbitrage, contacter son conseiller.</li>
-                    <li class="txt-14">Application Link Vie : Site vitrine de souscription en ligne : <a href="http://www.linkbyprimonial.com/">linkbyprimonial.com</a></li>
                 </ul>
                 <ul class="mt-20">
-                    <li class="txt-bold">Fondation Louis Vuitton, musée d’art :</li>
-                    <li class="txt-14 mt-10">Développement Javascript et Intégration Html5/Css3 de la version 2 du site.</li>
-                    <li class="txt-14">CMS Aem, jQuery, CSS3, compatibilité mobile/tablette.</li>
+                    <li><span class="txt-bold" >Fondation Louis Vuitton</span><span class="txt-14"> musée d’arts (janvier 2014 à février 2015)</span></li>
+                    <li class="txt-14 mt-10">Développement Javascript et intégration Html5 et css.</li>
+                    <li class="txt-14">CMS Aem, jQuery, CSS3, compatibilité mobile et tablette.</li>
                 </ul>
-                <ul class="mt-20">
-                    <li class="txt-bold">Valtech RH</li>
-                    <li class="txt-14 mt-10">Développement d’une application interne RH en angularjs pour la gestion des recrutements.</li>
-                </ul>
-                <ul class="mt-20">
-                    <li class="txt-14">Formateur sur des sessions Javascript et Html5</li>
-                    <li class="txt-14">Evaluation technique des candidats pour les postes de développeur Front-end</li>
-                </ul>
+
             </li>
         </ul>
         <ul class="mt-20">
             <li>
-                <span class="txt-bold">Marcel - Développeur Front-end </span>
-                <br>
-                <span class="txt-14 txt-bold"> Juillet 2010 - Décembre 2013</span>
+                <p class="txt-bold">Marcel - Développeur Front-end </p>
+                <p><span class="txt-14 "> Juillet 2010 - Décembre 2013</span></p>
+
 
                 <ul class="mt-20">
                     <li class="txt-14 mt-10">
-                        En charge des développements Javascript et intégration Html5 des sites vitrines et évènementiels.
-                        <br> Sites compatibles sur mobile et tablette en responsive web design, intégration de players vidéos
-                        html5.
-                        <br> Outils utilisés dans l'agence : jQuery, Backbone et requirejs, sass/compass pour le css.
-                    </li>
-                    <li class="txt-14">Clients : Cartier, Renault, Ratp, Orange, Axa, Oasis, Biotherm.</li>
-                </ul>
-            </li>
-        </ul>
-        <ul class="mt-20">
-            <li>
-                <span class="txt-bold">Publicis Net/Marcel - Développeur Front-end</span>
-                <br>
-                <span class="txt-14  txt-bold"> Janvier 2010 / Juin 2010 </span>
-                <ul class="mt-20">
-                    <li class="txt-14 mt-10">
-                        Refonte du site du groupe Publicis. (http://publicisgroupe.com)
-                        <br> Intégration des templates html/css, développement Javascript sous forme de plugins jQuery.
-                        <br> Projet utilisant diverses technologies : zend framework php, Modules Flash, jQuery, Google Maps Api.
+                        <p>En charge des développements Javascript et intégration Html5 des sites vitrines et évènementiels pour les clients de l'agence (Cartier, Renault, Ratp, Orange, Axa)</p>
+                        <p> Sites compatibles sur mobile et tablette en responsive web design, intégration de players vidéos html5.</p>
+                        <p> Outils utilisés dans l'agence : jQuery, Backbone, Sass</p>
                     </li>
                 </ul>
             </li>
         </ul>
         <ul class="mt-20">
             <li>
-                <span class="txt-bold">Kassius - Développeur Web</span>
-                <br>
-                <span class="txt-14  txt-bold"> Mars 2008 Décembre 2009 </span>
+                <p class="txt-bold">Publicis Net/Marcel - Développeur Front-end </p>
+                <p><span class="txt-14 "> Janvier 2010 / Juin 2010 </span></p>
+
                 <ul class="mt-20">
                     <li class="txt-14 mt-10">
-                        Développement Wordpress(php, html, css), Flash Action Script 3 et intégration Html pour mobile.
+                        <p>Refonte du site du groupe Publicis. (http://publicisgroupe.com)</p>
+                        <p> Intégration des templates html/css, développement Javascript sous forme de plugins jQuery.</p>
+                        <p>Projet utilisant diverses technologies : zend framework php, composants Flash, jQuery, Google Maps Api.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="mt-20">
+            <li>
+                <p class="txt-bold">Kassius - Développeur Web</p>
+                <p><span class="txt-14 "> Mars 2008 Décembre 2009 </span></p>
+                <ul class="mt-20">
+                    <li class="txt-14 mt-10">
+                        <p>Développement Wordpress(php, html, css), Flash Action Script 3 et intégration Html pour mobile.</p>
                     </li>
                 </ul>
             </li>
@@ -175,8 +174,8 @@
         <ul class="mt-20">
             <li>
                 <span class="txt-bold">The Brandnation - Développeur Web</span>
-                <br>
-                <span class="txt-14  txt-bold"> Octobre 2006 Octobre 2007 </span>
+
+                <p class="txt-14"> Octobre 2006 Octobre 2007 </p>
                 <ul class="mt-20">
                     <li class="txt-14 mt-10">
                         Développement Flash Action Script 2, intégration Html/Css. Dans le cadre d'un contrat d'apprentissage.
@@ -200,17 +199,17 @@
                             <li class="txt-14">IUT Service et Réseaux de Communication</li>
                         </ul>
                     </li>
-           
+
         </ul>
         <h2 class="mt-30">Loisirs / Autre</h2>
         <ul class="mt-20">
             <li>
                     Langues : <br>
-                    Anglais (niveau scolaire, technique).
-                    
+                    Français, Anglais (niveau scolaire, technique).
+
             </li>
             <li>
-                    Sports (running, vélo, plongee N2, apnée), cinéma. Permis B 
+                    Sports (plongée Niveau 3, apnée niveau 2, running, vélo), cinéma.
             </li>
         </ul>
     </div>
