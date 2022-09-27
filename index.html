@@ -8,37 +8,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
-
     <style>
         body {
-            background:#F7F7F7 no-repeat fixed center top;
-            font:16px/22px  Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-            font-weight:normal;
-            color:#1A1A1A;
+            background: #F7F7F7 no-repeat fixed center top;
+            font: 16px/22px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: normal;
+            color: #1A1A1A;
         }
+
         .container {
             width: 100%;
             margin: auto;
             max-width: 1200px;
         }
+
         h1 {
             font-size: 30px;
             font-weight: bold;
             letter-spacing: 0.05em;
             text-transform: uppercase;
         }
+
         h2 {
             font-size: 25px;
             padding-bottom: 8px;
             border-bottom: 4px solid rgb(182, 182, 182);
         }
+
         li {
             font-size: 18px;
             line-height: 150%;
         }
 
-        ul>li>ul {
+        ul > li > ul {
             margin-left: 20px;
         }
 
@@ -48,6 +50,10 @@
 
         .mt-30 {
             margin-top: 30px;
+        }
+
+        .mb-30 {
+            margin-bottom: 30px;
         }
 
         .mt-20 {
@@ -61,157 +67,173 @@
         .txt-14 {
             font-size: 16px;
         }
-        .header{
+
+        .header {
             display: flex;
             justify-content: space-between;
         }
     </style>
 </head>
 <body>
-    <div class="container mt-30">
-        <div class="header">
-            <div class="header-title">
-                <h1>Fabien Lailliau</h1>
-                <p class="mt-10">Développeur Front End</p>
-            </div>`
-            <div>
-                <p>75019 Paris, France</p>
-                <p>0698847559</p>
-                <p>lailliaufabien@gmail.com</p>
-            </div>
+<main class="container mt-30 mb-30">
+    <header class="header">
+        <div class="header-title">
+            <h1>Fabien Lailliau</h1>
+            <p class="mt-10">Développeur Front End</p>
         </div>
-        <h2 class="mt-30">Compétences</h2>
-        <ul class="mt-20">
-            <li>Front-end :
-                <span class="txt-14">Angular, Typescript, Rxjs, Ngrx, React, VueJs, Graphql, Npm, Webpack</span>
-            </li>
-            <li>Back-end :
-                <span class="txt-14">Nodejs, Php Laravel (intermédiaire), Mysql, Wordpress</span>
-            </li>
-            <li>
-                Devops :  <span class="txt-14">Git, Jenkins (base), Nexus</span>
-            </li>
-            <li>
-                Gestion de projet:
-                <span class="txt-14">Agilité, Scrum, Kanban</span>
-            </li>
-        </ul>
-        <h2 class="mt-30">Expériences</h2>
-        <ul class="mt-20">
-            <li>
-                <p > <span class="txt-bold">Valtech - Développeur Front-end </span> </p>
-                <p><span class="txt-14"> depuis Janvier 2014</span></p>
-                <ul class="mt-20">
-                    <li ><span class="txt-bold" >Primonial</span> <span class="txt-14">gestion de patrimoine (depuis janvier 2020)</span></li>
-                    <li class="txt-14 mt-10">Refonte des applications en Angular</li>
-                    <li class="txt-14">Choix technique de l'architecture, estimation et répartition des tâches au sein de l'équipe front (4 personnes)</li>
-                    <li class="txt-14">StateManagement avec Ngrx</li>
-                    <li class="txt-14">Mise en place d'un monorepo front avec nx.io</li>
-                </ul>
-                <ul class="mt-20">
-                    <li> <span class="txt-bold" >Allianz</span> <span class="txt-14">assurance, squad BigData (février 2019 à décembre 2019)</span></li>
-                    <li class="txt-14">Développement de plusieurs applications en Angular, Angular Material, Ngrx et Graphql communiquant avec une api rest developpée en python.</li>
-                </ul>
-                <ul class="mt-20">
-                    <li> <span class="txt-bold" >Allianz</span> <span class="txt-14"> assurance, squad Prévoyance (octobre 2017 à février 2019)</span></li>
-                    <li class="txt-14 mt-10">Développement d'applications Angular</li>
-                    <li class="txt-14">Parcours de souscription de contrat d'assurance, application angular communiquant avec une api rest developpée en Java</li>
-                </ul>
-                <ul class="mt-20">
-                    <li ><span class="txt-bold" >Primonial</span> <span class="txt-14"> gestion de patrimoine  (juin 2015 à octobre 2017)</span></li>
-                    <li class="txt-14 mt-10">Développement d'applications angularjs communiquant avec une api rest developpée en java.</li>
-                    <li class="txt-14">Choix et mise en place de l'architecture : Angularjs, Brunch, Sass</li>
-                    <li class="txt-14">Déploiement des applications sur les différents environnements avec Jenkins.</li>
-                </ul>
-                <ul class="mt-20">
-                    <li><span class="txt-bold" >Fondation Louis Vuitton</span><span class="txt-14"> musée d’arts (janvier 2014 à février 2015)</span></li>
-                    <li class="txt-14 mt-10">Développement Javascript et intégration Html5 et css.</li>
-                    <li class="txt-14">CMS Aem, jQuery, CSS3, compatibilité mobile et tablette.</li>
-                </ul>
-
-            </li>
-        </ul>
-        <ul class="mt-20">
-            <li>
-                <p class="txt-bold">Marcel - Développeur Front-end </p>
-                <p><span class="txt-14 "> Juillet 2010 - Décembre 2013</span></p>
-
-
-                <ul class="mt-20">
-                    <li class="txt-14 mt-10">
-                        <p>En charge des développements Javascript et intégration Html5 des sites vitrines et évènementiels pour les clients de l'agence (Cartier, Renault, Ratp, Orange, Axa)</p>
-                        <p> Sites compatibles sur mobile et tablette en responsive web design, intégration de players vidéos html5.</p>
-                        <p> Outils utilisés dans l'agence : jQuery, Backbone, Sass</p>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <ul class="mt-20">
-            <li>
-                <p class="txt-bold">Publicis Net/Marcel - Développeur Front-end </p>
-                <p><span class="txt-14 "> Janvier 2010 / Juin 2010 </span></p>
-
-                <ul class="mt-20">
-                    <li class="txt-14 mt-10">
-                        <p>Refonte du site du groupe Publicis. (http://publicisgroupe.com)</p>
-                        <p> Intégration des templates html/css, développement Javascript sous forme de plugins jQuery.</p>
-                        <p>Projet utilisant diverses technologies : zend framework php, composants Flash, jQuery, Google Maps Api.</p>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <ul class="mt-20">
-            <li>
-                <p class="txt-bold">Kassius - Développeur Web</p>
-                <p><span class="txt-14 "> Mars 2008 Décembre 2009 </span></p>
-                <ul class="mt-20">
-                    <li class="txt-14 mt-10">
-                        <p>Développement Wordpress(php, html, css), Flash Action Script 3 et intégration Html pour mobile.</p>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <ul class="mt-20">
-            <li>
-                <span class="txt-bold">The Brandnation - Développeur Web</span>
-
-                <p class="txt-14"> Octobre 2006 Octobre 2007 </p>
-                <ul class="mt-20">
-                    <li class="txt-14 mt-10">
-                        Développement Flash Action Script 2, intégration Html/Css. Dans le cadre d'un contrat d'apprentissage.
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2 class="mt-30">Formations</h2>
-        <ul class="mt-20">
-            <li >
-                    <span class="txt-bold">Université Paris 13 Paris Nord Villetaneuse</span>
-                    <span class="txt-14  txt-bold">Bobigny 2006 – 2007</span>
-                    <ul>
-                        <li class="txt-14">Licence Pro Activités et Techniques de Communication </li>
-                    </ul>
+        <div>
+            <p>75019 Paris, France</p>
+            <p>0698847559</p>
+            <p>lailliaufabien@gmail.com</p>
+        </div>
+    </header>
+    <h2 class="mt-30">Compétences</h2>
+    <ul class="mt-20">
+        <li>Front-end :
+            <span class="txt-14">Angular, Typescript, Rxjs, Ngrx, React, VueJs, Graphql, Npm, Webpack</span>
+        </li>
+        <li>Back-end :
+            <span class="txt-14">Nodejs (intermédiaire), Php Laravel (intermédiaire), Mysql (intermédiaire), Wordpress</span>
+        </li>
+        <li>
+            Devops : <span class="txt-14">Git, Jenkins (base)</span>
+        </li>
+        <li>
+            Gestion de projet:
+            <span class="txt-14">Agilité, Scrum, Kanban</span>
+        </li>
+    </ul>
+    <h2 class="mt-30">Expériences</h2>
+    <ul class="mt-20">
+        <li>
+            <p class="txt-bold"> Valtech - Développeur Front-end</p>
+            <p class="txt-14"> depuis Janvier 2014</p>
+            <ul class="mt-20">
+                <li><span class="txt-bold">Primonial</span> <span class="txt-14">gestion de patrimoine (depuis janvier 2020)</span>
                 </li>
-                    <li >
-                        <span class="txt-bold">Université Tours François Rabelais</span>
-                        <span class="txt-14  txt-bold"> Blois 2004 - 2006</span>
-                        <ul>
-                            <li class="txt-14">IUT Service et Réseaux de Communication</li>
-                        </ul>
-                    </li>
+                <li class="txt-14 mt-10">Refonte des applications en Angular</li>
+                <li class="txt-14">Choix technique de l'architecture, estimation et répartition des tâches au sein de
+                    l'équipe front (4 personnes)
+                </li>
+                <li class="txt-14">State management  Ngrx</li>
+                <li class="txt-14">Mise en place d'un monorepo front avec nx</li>
+            </ul>
+            <ul class="mt-20">
+                <li><span class="txt-bold">Allianz</span> <span class="txt-14">assurance, squad BigData (février 2019 à décembre 2019)</span>
+                </li>
+                <li class="txt-14">Développement de plusieurs applications en Angular, Angular Material, Ngrx et Graphql
+                    communiquant avec une api rest developpée en python.
+                </li>
+            </ul>
+            <ul class="mt-20">
+                <li><span class="txt-bold">Allianz</span> <span class="txt-14"> assurance, squad Prévoyance (octobre 2017 à février 2019)</span>
+                </li>
+                <li class="txt-14 mt-10">Développement d'applications Angular</li>
+                <li class="txt-14">Parcours de souscription de contrat d'assurance, application Angular communiquant
+                    avec une api rest developpée en Java
+                </li>
+            </ul>
+            <ul class="mt-20">
+                <li><span class="txt-bold">Primonial</span> <span class="txt-14"> gestion de patrimoine  (juin 2015 à octobre 2017)</span>
+                </li>
+                <li class="txt-14 mt-10">Développement d'applications Angularjs communiquant avec une api rest
+                    developpée en java.
+                </li>
+                <li class="txt-14">Choix et mise en place de l'architecture : Angularjs, Brunch, Sass</li>
+                <li class="txt-14">Déploiement des applications sur les différents environnements avec Jenkins.</li>
+            </ul>
+            <ul class="mt-20">
+                <li><span class="txt-bold">Fondation Louis Vuitton</span><span class="txt-14"> musée d’arts (janvier 2014 à février 2015)</span>
+                </li>
+                <li class="txt-14 mt-10">Développement Javascript et intégration Html5 et css.</li>
+                <li class="txt-14">CMS Aem, jQuery, CSS3, compatibilité mobile et tablette.</li>
+            </ul>
 
-        </ul>
-        <h2 class="mt-30">Loisirs / Autre</h2>
-        <ul class="mt-20">
-            <li>
-                    Langues : <br>
-                    Français, Anglais (niveau scolaire, technique).
+        </li>
+    </ul>
+    <ul class="mt-20">
+        <li>
+            <p class="txt-bold">Marcel - Développeur Front-end </p>
+            <p class="txt-14 "> Juillet 2010 - Décembre 2013</p>
 
-            </li>
-            <li>
-                    Sports (plongée Niveau 3, apnée niveau 2, running, vélo), cinéma.
-            </li>
-        </ul>
-    </div>
+
+            <ul class="mt-20">
+                <li class="txt-14 mt-10">
+                    <p>En charge des développements Javascript et intégration Html5 des sites vitrines et évènementiels
+                        pour les clients de l'agence (Cartier, Renault, Ratp, Orange, Axa)</p>
+                    <p> Sites compatibles sur mobile et tablette en responsive web design, intégration de players vidéos
+                        html5.</p>
+                    <p> Outils utilisés dans l'agence : jQuery, Backbone, Sass</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="mt-20">
+        <li>
+            <p class="txt-bold">Publicis Net/Marcel - Développeur Front-end </p>
+            <p class="txt-14 "> Janvier 2010 / Juin 2010</p>
+
+            <ul class="mt-20">
+                <li class="txt-14 mt-10">
+                    <p>Refonte du site du groupe Publicis</p>
+                    <p> Intégration des templates html/css, développement Javascript sous forme de plugins jQuery.</p>
+                    <p>Projet utilisant diverses technologies : zend framework php, composants Flash, jQuery, Google Maps Api.</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="mt-20">
+        <li>
+            <p class="txt-bold">Kassius - Développeur Web</p>
+            <p class="txt-14 "> Mars 2008 Décembre 2009</p>
+            <ul class="mt-20">
+                <li class="mt-10">
+                    <p class="txt-14">Développement Wordpress(php, html, css), Flash Action Script 3 et intégration Html
+                        pour mobile.</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="mt-20">
+        <li>
+            <span class="txt-bold">The Brandnation - Développeur Web</span>
+            <p class="txt-14"> Octobre 2006 Octobre 2007 </p>
+            <ul class="mt-20">
+                <li class="txt-14 mt-10">
+                    Développement Flash Action Script 2, intégration Html/Css. Dans le cadre d'un contrat
+                    d'apprentissage.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2 class="mt-30">Formations</h2>
+    <ul class="mt-20">
+        <li>
+            <span class="txt-bold">Université Paris 13 Paris Nord Villetaneuse</span>
+            <span class="txt-14  txt-bold">Bobigny 2006 – 2007</span>
+            <ul>
+                <li class="txt-14">Licence Pro Activités et Techniques de Communication</li>
+            </ul>
+        </li>
+        <li>
+            <span class="txt-bold">Université Tours François Rabelais</span>
+            <span class="txt-14  txt-bold"> Blois 2004 - 2006</span>
+            <ul>
+                <li class="txt-14">IUT Service et Réseaux de Communication</li>
+            </ul>
+        </li>
+
+    </ul>
+    <h2 class="mt-30">Loisirs / Autre</h2>
+    <ul class="mt-20">
+        <li>
+            Langues : Français, Anglais (niveau intermédiaire, technique).
+        </li>
+        <li>
+            Sports : (plongée Niveau 3, apnée niveau 2, running, vélo), cinéma.
+        </li>
+    </ul>
+</main>
 </body>
 </html>
+
